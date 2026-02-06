@@ -31,7 +31,7 @@ export default function Navbar() {
         
         {/* Logo */}
         <Link href="/" className="text-2xl font-bold tracking-wide">
-          Sport<span className="text-green-400">Hub</span>
+          <span className="text-orange-400">One</span> Play <span className="text-green-400">India</span>
         </Link>
 
         {/* Desktop Menu */}

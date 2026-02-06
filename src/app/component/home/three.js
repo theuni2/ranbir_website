@@ -5,16 +5,18 @@ import Image from "next/image";
 
 const articles = [
   {
-    title: "How Students Can Balance Sports & Academics",
-    desc: "Practical strategies for managing school responsibilities while pursuing sports dreams.",
+    title: "Report on Volunteering Experience at Oscar Foundation Event",
+    desc: "The Annual Football Day was organized by the Oscar Foundation in Mumbai, commencing from 6:30 a.m. onwards.",
     img: "/blog/img_1.png",
     tag: "Guide",
+    slug:"oscar_blog"
   },
   {
-    title: "From District Ground to National Level",
-    desc: "An inspiring athlete journey that shows how consistency beats talent.",
+    title: "Upcoming Sports Events in 2026",
+    desc: "A comprehensive list of major sports events happening across India in 2026 for young athletes.",
     img: "/blog/img_2.png",
     tag: "Journey",
+    slug:"second_blog"
   },
   {
     title: "Preparing for State Trials: Checklist",
@@ -78,10 +80,11 @@ export default function FeaturedArticles() {
                 <p className="text-gray-400 mt-3 text-sm leading-relaxed">
                   {item.desc}
                 </p>
-
+<a href={`/blogs/${item.slug}`} >
                 <button className="mt-5 w-full bg-green-500 hover:bg-green-600 text-black py-2 rounded-lg font-semibold transition">
                   Read More
                 </button>
+</a>
               </div>
             </motion.div>
           ))}
