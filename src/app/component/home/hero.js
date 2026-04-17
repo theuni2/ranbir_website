@@ -42,14 +42,14 @@ export default function Hero() {
           className="mt-10 flex flex-col sm:flex-row gap-4 justify-center"
         >
           <a
-            href="/opportunities"
+            href="/opportunity"
             className="px-8 py-3 bg-green-500 hover:bg-green-600 text-black font-semibold rounded-xl transition shadow-lg"
           >
             Explore Opportunities
           </a>
 
           <a
-            href="/join-whatsapp"
+            href="https://chat.whatsapp.com/IYl7JyHezfXCGOp1N3mRSs?mode=gi_t"
             className="px-8 py-3 border border-white/30 hover:bg-white/10 rounded-xl transition"
           >
             Join WhatsApp Channel

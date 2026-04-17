@@ -67,11 +67,12 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-export default function WhatsappSection() {
+export default function 
+WhatsappSection() {
   return (
     <section className="relative overflow-hidden py-28 px-6 bg-gradient-to-br from-[#0B1C2D] via-black to-[#0F3D2E] text-white">
       
-      {/* Decorative Blurs */}
+    
       <div className="absolute w-72 h-72 bg-green-500/20 rounded-full blur-3xl top-10 left-10"></div>
       <div className="absolute w-72 h-72 bg-blue-500/20 rounded-full blur-3xl bottom-10 right-10"></div>
 
@@ -102,7 +103,7 @@ export default function WhatsappSection() {
           </div>
 
           <a
-            href="#"
+            href="https://chat.whatsapp.com/IYl7JyHezfXCGOp1N3mRSs?mode=gi_t"
             className="inline-block mt-10 bg-green-500 hover:bg-green-600 text-black px-10 py-4 rounded-2xl font-semibold transition shadow-xl"
           >
             Join WhatsApp Now
